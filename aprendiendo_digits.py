@@ -97,7 +97,6 @@ for dig_index in range(len(distancia_Todos)):
         print("Resultado incorrecto\n")
 
     resultados.append({
-        "index": dig_index,
         "real": reales[dig_index],
         "vecinos": targets,
         "prediccion": resultado,
